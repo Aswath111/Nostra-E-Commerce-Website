@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections</title>
+     <!--google style sheet for fonts---->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+     <!--My Style Sheet-->
+    <link rel="stylesheet" href="style.css">
+<!-- Tailwind css cdn link -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+<!-- Fonts -->
+    <!--Font Awesome CDN Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+        <body>
+   
+    <!--Navbar-->
+    <nav class="navbar">
+       <h1><b>Nostra</b></h1>
+        <div class="navbar-01">
+       <p class="navbar-1"><a href="./index.html">Home</a></p>
+       <p class="navbar-1"><a href="./index.html">New Arrival</a></p>  
+       <p class="navbar-1"><a href="./index.html"> Most Wanted</a></p>
+       <p class="navbar-1"><a href="./collection.html">Collections</a></p>
+       <p class="navbar-1"><a href="./contactus.html">Contact Us</a> </p>
+        </div>
+
+        <div class="navbar-menu">
+            <i id="side-navbar-active" class="fa-solid fa-bars"></i>
+    </div>
+    </nav>
+
+    <!--side navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right;">
+            <i id="side-navbar-close" class="fa-solid fa-xmark"></i>
+        </p>
+    <div class="side-navbar01">
+     <p class="side-navbar01"><a href="./index.html">Home</a></p>
+     <p class="side-navbar01"><a href="./index.html">New Arrival</a></p>
+     <p class="side-navbar01"><a href="./index.html">Most Wanted</a></p>
+     <p class="side-navbar01"><a href="./collection.html">Collections</a></p>
+     <p class="side-navbar01"><a href="./contactus.html">Contact Us</a></p>
+    </div>
+    </div>
+            <!--collections-->
+    <div class="container">
+        <div class="divide-section">
+            <div class="filter-section">
+          <h3 class="filter-section-occasion">Occasion</h3>
+          
+          <div>
+            <input type="checkbox" name="tags" value="summer"> Summer <br>
+            <input type="checkbox" name="tags" value="party"> Party <br>
+            <input type="checkbox" name="tags" value="beach"> Beach <br>
+        </div>
+
+        <h3 class="filter-section-colors">Colors</h3>
+          <div>
+            <input type="checkbox" name="tags" value="red"> Red <br>
+            <input type="checkbox" name="tags" value="blue"> Blue <br>
+            <input type="checkbox" name="tags" value="white"> White <br>
+            <input type="checkbox" name="tags" value="green"> Green <br>
+        </div>
+
+
+        <h3 class="filter-section-arrivals">Arrivals</h3>
+          <div>
+            <input type="checkbox" name="tags" value="new"> New <br>
+            <input type="checkbox" name="tags" value="old"> Old <br>
+        </div>
+
+        <hr class="vertical-line"></div>
+        <div class="product-section">
+            <form class="navbar-search">
+                <input id="search"  type="text" placeholder="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+               <!--products-->
+
+                 <div class="products" id="procontainer">
+                    <div class="shirt" data-tags="beach blue new">
+                        <img src="./img/f1.jpg" alt="collection1">
+                        <h2>Floral Beach Shirt</h2>
+                        <p>Rs.500</p>
+                    </div>
+
+                    <div class="shirt" data-tags="beach green new">
+                        <img src="./img/f2.jpg" alt="collection2">
+                        <h2> Beach Green Shirt</h2>
+                        <p>Rs.900</p>
+                    </div>
+                   
+
+                    <div class="shirt" data-tags="beach red old">
+                        <img src="./img/f3.jpg" alt="collection3">
+                        <h2>Beach Red Shirt</h2>
+                        <p>Rs.700</p>
+                    </div>
+
+                    <div class="shirt" data-tags="beach white new">
+                        <img src="./img/f4.jpg" alt="collection4">
+                        <h2>White Beach Shirt</h2>
+                        <p>Rs.600</p>
+                    </div>
+
+                    <div class="shirt" data-tags="beach blue old">
+                        <img src="./img/f5.jpg" alt="collection5">
+                        <h2>Floral Beach Blue Shirt</h2>
+                        <p>Rs.800</p>
+                    </div>
+
+                    <div class="shirt" data-tags="party red new">
+                        <img src="./img/f6.jpg" alt="collection6">
+                        <h2>Trendy Party Shirt</h2>
+                        <p>Rs.500</p>
+                    </div>
+
+                    <div class="shirt" data-tags="Party palazo pant">
+                        <img src="./img/f7.jpg" alt="collection7">
+                        <h2>Party palazo Pant</h2>
+                        <p>Rs.500</p>
+                    </div>
+
+                    <div class="shirt" data-tags="Pant blue new">
+                        <img src="./img/f8.jpg" alt="collection8">
+                        <h2>Party Top</h2>
+                        <p>Rs.700</p>
+                    </div>
+
+                    <div class="shirt" data-tags="summer blue old">
+                        <img src="./img/n1.jpg" alt="collection9">
+                        <h2>Summar Formal Shirt</h2>
+                        <p>Rs.550</p>
+                    </div>
+
+                    <div class="shirt" data-tags="summer green old">
+                        <img src="./img/n2.jpg" alt="collection10">
+                        <h2>Floral Summar Shirt</h2>
+                        <p>Rs.600</p>
+                    </div>
+
+                    <div class="shirt" data-tags="summer white new">
+                        <img src="./img/n3.jpg" alt="collection11">
+                        <h2>Summar White Shirt</h2>
+                        <p>Rs.750</p>
+                    </div>
+
+                    <div class="shirt" data-tags="party green new">
+                        <img src="./img/n4.jpg" alt="collection12">
+                        <h2>Party Olive Green Shirt</h2>
+                        <p>Rs.500</p>
+                    </div>
+
+                    <div class="shirt" data-tags="summer blue new">
+                        <img src="./img/n5.jpg" alt="collection13">
+                        <h2>Summar Blue Shirt</h2>
+                        <p>Rs.599</p>
+                    </div>
+
+                    <div class="shirt" data-tags="summer green old">
+                        <img src="./img/n6.jpg" alt="collection14">
+                        <h2>Summar Trouser</h2>
+                        <p>Rs.500</p>
+                    </div>
+
+                    <div class="shirt" data-tags="party red old">
+                        <img src="./img/n7.jpg" alt="collection15">
+                        <h2>Floral Party Shirt</h2>
+                        <p>Rs.600</p>
+                    </div>
+
+                    <div class="shirt" data-tags="summer blue new">
+                        <img src="./img/n8.jpg" alt="collection16">
+                        <h2>Half Sleeve Summar Shirt</h2>
+                        <p>Rs.800</p>
+                    </div>
+                 </div>  
+    </div>
+</div>
+
+        <!--news letter-->
+
+        <div class="news">
+            <h2>Join our News Letter</h2>
+            <p style="text-align: center;">Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+            <div style="margin-top: 10px;">
+            <input class="search">
+        </div>
+        <div>
+            <button> Subscribe <i class="fa-solid fa-arrow-right"></i> </button>
+        </div>
+        </div>
+    
+        </div>
+        
+
+        <!---Footer-->
+        <div class="footer">
+            <div class="footer-container">
+                <div class="footer-box-1">
+                    <h2 class="headingText">Nostra</h2>
+                    <p>The Standard chunk of Lorem ipsum
+                        used since the 1500s is reprodused
+                        below for those interest</p>
+                    <div class="footer-icon-container">
+                         <i class="fa-brands fa-instagram" style="color: white;"></i>
+                         <i class="fa-brands fa-twitter" style="color:white;"></i>
+                        <i class="fa-brands fa-facebook" style="color: white;"></i>
+                    </div>
+                </div>
+    
+    
+    
+            </div>
+    
+            <p class="subtitle">@ 2023 Nostra.com</p>
+        </div>
+       
+        <script src="./collection.js"></script>
+    </body>
+</html>
+
+
+
+

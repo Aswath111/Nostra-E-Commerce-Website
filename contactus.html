@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+     <!--google style sheet for fonts---->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+     <!--My Style Sheet-->
+    <link rel="stylesheet"  href="style.css">
+
+    <!-- Tailwind css cdn link -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+
+    <!--Font Awesome CDN Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+        <body>
+ <!--Navbar-->
+ <nav class="navbar">
+    <h1>Nostra</h1>
+     <div class="navbar-01">
+    <p class="navbar-1"><a href="./index.html">Home</a></p>
+    <p class="navbar-1"><a href="./index.html">New Arrival</a></p>  
+    <p class="navbar-1"><a href="./index.html"> Most Wanted</a></p>
+    <p class="navbar-1"><a href="./collection.html">Collections</a></p>
+    <p class="navbar-1"><a href="./contactus.html">Contact Us</a> </p>
+     </div>
+
+     <div class="navbar-menu">
+         <i id="side-navbar-active" class="fa-solid fa-bars"></i>
+ </div>
+ </nav>
+
+ <!--side navbar-->
+     <div class="side-navbar">
+     <p style="text-align: right;">
+         <i id="side-navbar-close" class="fa-solid fa-xmark"></i>
+     </p>
+ <div class="side-navbar01">
+  <p class="side-navbar01"><a href="./index.html">Home</a></p>
+  <p class="side-navbar01"><a href="./index.html">New Arrival</a></p>
+  <p class="side-navbar01"><a href="./index.html">Most Wanted</a></p>
+  <p class="side-navbar01"><a href="./collection.html">Collections</a></p>
+  <p class="side-navbar01"><a href="./contactus.html">Contact Us</a></p>
+ </div>
+ </div>
+
+ <!---form-->
+ <div class="contact-form">
+    <h2>Contact Us</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <input type="submit" value="Submit">
+    </form>
+ </div>
+ 
+
+
+ <!--news-->
+<div class="news">
+    <h2 style="font-weight: bold;">Join our News Letter</h2>
+    <p style="text-align: center; font-weight: bold;">Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+    <div style="margin-top: 10px;">
+    <input class="search">
+</div>
+<div>
+    <button> Subscribe <i class="fa-solid fa-arrow-right"></i> </button>
+</div>
+</div>
+
+</div>
+
+<!--footer-->
+
+<div class="footer">
+    <div class="footer-container">
+        <div class="footer-box-1">
+            <h2 class="headingText">Nostra</h2>
+            <p>The Standard chunk of Lorem ipsum
+                used since the 1500s is reprodused
+                below for those interest</p>
+            <div class="footer-icon-container">
+                 <i class="fa-brands fa-instagram" style="color: white;"></i>
+                 <i class="fa-brands fa-twitter" style="color:white;"></i>
+                <i class="fa-brands fa-facebook" style="color: white;"></i>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <p class="subtitle">@ 2023 Nostra.com</p>
+</div>
+  <script src="./contact.js"></script>
+</body>
+
+</html>
