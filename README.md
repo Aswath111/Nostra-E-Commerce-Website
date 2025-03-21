@@ -12,8 +12,11 @@ Checkout Process: Simple and intuitive for hassle-free purchases.
 
 # Technologies Used 
 HTML5: Structuring the content and layout.
+
 CSS3: Styling for modern and responsive design.
+
 JavaScript: Adding interactivity and dynamic content.
+
 
  # Live Demo
 Check out the live website here: https://aswath111.github.io/Nostra-E-Commerce-Website/
